@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* صورة الهيدر */
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* صندوق الاشتراك */
+.join {
+    background-color: goldenrod;
+    padding: 25px;
+    text-align: right;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.join h2 {
+    margin: 0 0 10px 0;
+}
+
+.join h6 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+/* حقول الإدخال */
+.y, .z {
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: block;
+}
+
+/* زر الاشتراك */
+.x {
+    font-size: 24px;
+    padding: 12px 20px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.x:hover {
+    opacity: 0.9;
+}
+
+/* صورة أسفل الصفحة */
+.section-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
